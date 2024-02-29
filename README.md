@@ -1,6 +1,6 @@
 # Learning Dynamic Tetrahedra for High-Quality Talking Head Synthesis (CVPR 2024)
 This repository contains a PyTorch re-implementation of the paper: Learning Dynamic Tetrahedra for High-Quality Talking Head Synthesis.
-### | [Video](https://youtu.be/Hahv5jy2w_E) |
+### | [Arxiv](https://arxiv.org/pdf/2402.17364.pdf) | [Video](https://youtu.be/Hahv5jy2w_E) | 
 
 ## Abstract
 
@@ -8,3 +8,13 @@ Recent works in implicit representations, such as Neural Radiance Fields (NeRF),
 
 ## Code
 Code will be released soon.
+
+## Citation
+```
+@InProceedings{zhang2024learning,
+    title={Learning Dynamic Tetrahedra for High-Quality Talking Head Synthesis}, 
+    author={Zicheng Zhang and Ruobing Zheng and Ziwen Liu and Congying Han and Tianqi Li and Meng Wang and Tiande Guo and Jingdong Chen and Bonan Li and Ming Yang},
+    booktitle={CVPR},
+    year={2024}
+}
+```
