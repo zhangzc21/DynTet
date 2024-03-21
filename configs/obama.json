@@ -1,0 +1,17 @@
+{
+    "ref_mesh": "data/video/obama",
+    "random_textures": true,
+    "use_elastic": true,
+    "iter": 40000,
+    "save_interval": 100,
+    "train_res": [448, 448],
+    "batch": 4,
+    "learning_rate": [0.001, 0.001],
+    "ks_min" : [0, 0.1, 0],
+    "ks_max" : [1.0,  1.0,  1.0],
+    "dmtet_grid" : 128,
+    "mesh_scale" : 2.5,
+    "display": [{"latlong" : true}, {"bsdf" : "normal"}],
+    "background" : "target",
+    "out_dir": "obama"
+}
