@@ -53,25 +53,25 @@ In addition, the following steps refer to [Deep3DFace](https://github.com/sicxu/
 
 [//]: # (data_utils)
 
-[//]: # (Â©Â¦)
+[//]: # (©¦)
 
-[//]: # (Â©Â¸Â©Â¤Â©Â¤Â©Â¤Deep3DFaceRecon)
+[//]: # (©¸©¤©¤©¤Deep3DFaceRecon)
 
-[//]: # (    Â©Â¦)
+[//]: # (    ©¦)
 
-[//]: # (    Â©Â¸Â©Â¤Â©Â¤Â©Â¤ BFM)
+[//]: # (    ©¸©¤©¤©¤ BFM)
 
-[//]: # (        Â©Â¦)
+[//]: # (        ©¦)
 
-[//]: # (        Â©Â¸Â©Â¤Â©Â¤Â©Â¤ 01_MorphableModel.mat)
+[//]: # (        ©¸©¤©¤©¤ 01_MorphableModel.mat)
 
-[//]: # (        Â©Â¦)
+[//]: # (        ©¦)
 
-[//]: # (        Â©Â¸Â©Â¤Â©Â¤Â©Â¤ Exp_Pca.bin)
+[//]: # (        ©¸©¤©¤©¤ Exp_Pca.bin)
 
 [//]: # (        |)
 
-[//]: # (        Â©Â¸Â©Â¤Â©Â¤Â©Â¤ ...)
+[//]: # (        ©¸©¤©¤©¤ ...)
 
 [//]: # (```)
 
@@ -79,23 +79,23 @@ In addition, the following steps refer to [Deep3DFace](https://github.com/sicxu/
 - Download the pre-trained model using this [link (google drive)](https://drive.google.com/drive/folders/1liaIxn9smpudjjqMaWWRpP0mXRW_qRPP?usp=sharing) and organize the directory into the following structure:
 ```
 data_utils
-â”‚
-â””â”€â”€â”€Deep3DFaceRecon
-    â”‚
-    â””â”€â”€â”€ checkpoints
-        â”‚
-        â””â”€â”€â”€ facerecon
-            â”‚
-            â””â”€â”€â”€ epoch_20.pth
+©¦
+©¸©¤©¤©¤Deep3DFaceRecon
+    ©¦
+    ©¸©¤©¤©¤ checkpoints
+        ©¦
+        ©¸©¤©¤©¤ facerecon
+            ©¦
+            ©¸©¤©¤©¤ epoch_20.pth
 ```
 
-- For evaluation, download the pre-trained model [arcface model](https://link.zhihu.com/?target=https%3A//1drv.ms/u/s%21AhMqVPD44cDOhkPsOU2S_HFpY9dC) and organize the directory into the following structure:
+For evaluation, download the pre-trained model [arcface model](https://link.zhihu.com/?target=https%3A//1drv.ms/u/s%21AhMqVPD44cDOhkPsOU2S_HFpY9dC) and organize the directory into the following structure:
 ```
 evaluate_utils
-â”‚
-â””â”€â”€â”€arcface
-    â”‚
-    â””â”€â”€â”€ model_ir_se50.pth
+©¦
+©¸©¤©¤©¤arcface
+    ©¦
+    ©¸©¤©¤©¤ model_ir_se50.pth
 ```
 
 ## Usage
@@ -105,7 +105,7 @@ evaluate_utils
   - The video must be 25FPS, with all frames containing the talking person. 
   - Due to the usage of nvdiffrast, we will process video width and height into integers multiple of 8, like 448\*448 and 512\*512.
 
-  We get the experiment videos mainly from [AD-NeRF](https://github.com/YudongGuo/AD-NeRF), [ER-NeRF](https://github.com/Fictionarry/ER-NeRF), [GeneFace](https://github.com/yerfor/GeneFace) and YouTube. Due to copyright restrictions, we can't distribute all of them. You may have to download and crop these videos by yourself. Here is an example training video (Obama) from AD-NeRF.
+  We get the experiment videos mainly from [AD-NeRF](https://github.com/YudongGuo/AD-NeRF), [ER-NeRF](https://github.com/Fictionarry/ER-NeRF), [GeneFace](https://github.com/yerfor/GeneFace) and YouTube. Due to copyright restrictions, we can't distribute all of them. You may have to download and crop these videos by youself. Here is an example training video (Obama) from AD-NeRF.
   ```
   mkdir -p data/video
   wget https://github.com/YudongGuo/AD-NeRF/blob/master/dataset/vids/Obama.mp4?raw=true -O data/video/obama.mp4
@@ -132,7 +132,7 @@ python evaluate_utils/evaluate.py --train_dir out/obama
 
 ### inference
 
-To infer the video of the validation dataset:
+To infer the video of validation dataset:
 ```bash
 python infer.py --config configs/obama.json 
 ```
@@ -146,7 +146,7 @@ Note: Given an audio, you can try [SadTalker](https://github.com/OpenTalker/SadT
 
 ## TODO
 - [x] **Release Code.**
-- [ ] We are considering uploading a script that fine-tunes GFPGAN on DynTet to enhance the visual effects of talking head. 
+- [ ] We consider that uploading a script that fine-tunes GFPGAN on DynTet to enhance visual effects of talking head. 
 
 ## Citation
 
