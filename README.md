@@ -53,25 +53,25 @@ In addition, the following steps refer to [Deep3DFace](https://github.com/sicxu/
 
 [//]: # (data_utils)
 
-[//]: # (©¦)
+[//]: # (Â©Â¦)
 
-[//]: # (©¸©¤©¤©¤Deep3DFaceRecon)
+[//]: # (Â©Â¸Â©Â¤Â©Â¤Â©Â¤Deep3DFaceRecon)
 
-[//]: # (    ©¦)
+[//]: # (    Â©Â¦)
 
-[//]: # (    ©¸©¤©¤©¤ BFM)
+[//]: # (    Â©Â¸Â©Â¤Â©Â¤Â©Â¤ BFM)
 
-[//]: # (        ©¦)
+[//]: # (        Â©Â¦)
 
-[//]: # (        ©¸©¤©¤©¤ 01_MorphableModel.mat)
+[//]: # (        Â©Â¸Â©Â¤Â©Â¤Â©Â¤ 01_MorphableModel.mat)
 
-[//]: # (        ©¦)
+[//]: # (        Â©Â¦)
 
-[//]: # (        ©¸©¤©¤©¤ Exp_Pca.bin)
+[//]: # (        Â©Â¸Â©Â¤Â©Â¤Â©Â¤ Exp_Pca.bin)
 
 [//]: # (        |)
 
-[//]: # (        ©¸©¤©¤©¤ ...)
+[//]: # (        Â©Â¸Â©Â¤Â©Â¤Â©Â¤ ...)
 
 [//]: # (```)
 
@@ -79,23 +79,23 @@ In addition, the following steps refer to [Deep3DFace](https://github.com/sicxu/
 - Download the pre-trained model using this [link (google drive)](https://drive.google.com/drive/folders/1liaIxn9smpudjjqMaWWRpP0mXRW_qRPP?usp=sharing) and organize the directory into the following structure:
 ```
 data_utils
-©¦
-©¸©¤©¤©¤Deep3DFaceRecon
-    ©¦
-    ©¸©¤©¤©¤ checkpoints
-        ©¦
-        ©¸©¤©¤©¤ facerecon
-            ©¦
-            ©¸©¤©¤©¤ epoch_20.pth
+â”‚
+â””â”€â”€â”€Deep3DFaceRecon
+    â”‚
+    â””â”€â”€â”€ checkpoints
+        â”‚
+        â””â”€â”€â”€ facerecon
+            â”‚
+            â””â”€â”€â”€ epoch_20.pth
 ```
 
 For evaluation, download the pre-trained model [arcface model](https://link.zhihu.com/?target=https%3A//1drv.ms/u/s%21AhMqVPD44cDOhkPsOU2S_HFpY9dC) and organize the directory into the following structure:
 ```
 evaluate_utils
-©¦
-©¸©¤©¤©¤arcface
-    ©¦
-    ©¸©¤©¤©¤ model_ir_se50.pth
+â”‚
+â””â”€â”€â”€arcface
+    â”‚
+    â””â”€â”€â”€ model_ir_se50.pth
 ```
 
 ## Usage
