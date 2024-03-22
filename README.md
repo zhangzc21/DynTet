@@ -134,7 +134,7 @@ python evaluate_utils/evaluate.py --train_dir out/obama
 ```
 
 
-### inference
+### Inference
 
 To infer the video of validation dataset:
 ```bash
