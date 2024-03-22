@@ -4,6 +4,10 @@ This repository contains a PyTorch re-implementation of the paper: Learning Dyna
 
 
 ## Installation
+Requires Python 3.6+, Cuda 11.3+ and PyTorch 1.10+. 
+
+Tested in Linux and Anaconda3 with Python 3.9 and PyTorch 1.10.
+
 Please refer to scripts/install.sh
 ````### Install dependency
 conda create -n dyntet python=3.9
