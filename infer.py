@@ -141,7 +141,7 @@ if __name__ == "__main__":
 
     save_dir = save_dir + flag
 
-    FLAGS.data_range = [0, 200]
+    FLAGS.data_range = [0, 200] # only using poses of the first 200 frames, changing it to [0, -1] if using poses of all frames 
     dataset_validate = DatasetTalkingHead(os.path.join(FLAGS.ref_mesh, 'mv_transforms_val.json'),
                                           FLAGS, examples = n_images)
     dataset_validate.mv = dataset_validate.smooth_mv # use smooth mv to eliminate shaking
