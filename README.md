@@ -43,9 +43,7 @@ The following steps refer to [AD-NeRF](https://github.com/YudongGuo/AD-NeRF).
 
   ```
   # 1. copy 01_MorphableModel.mat to data_util/face_tracking/3DMM/
-  # 2.
-    cd data_utils/face_tracking
-    python convert_BFM.py
+  # 2. cd data_utils/face_tracking && python convert_BFM.py
   ```
 
 In addition, the following steps refer to [Deep3DFace](https://github.com/sicxu/Deep3DFaceRecon_pytorch/tree/master). We use 3DMM coefficients to drive talking heads.
