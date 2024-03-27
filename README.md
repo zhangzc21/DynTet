@@ -140,7 +140,7 @@ python infer.py --config configs/obama.json
 ```
 To infer the video with customized 3DMM coefficients, and (optionally) merge the video and audio:
 ```bash
-python infer.py --config configs/obama.json --drive_3dmm data/test_audio/obama_sing_sadtalker.npy --audio data/dyntet/data/test_audio/sing.wav
+python infer.py --config configs/obama.json --drive_3dmm data/test_audio/obama_sing_sadtalker.npy --audio data/test_audio/sing.wav
 ```
 
 Note: Given an audio, you can try [SadTalker](https://github.com/OpenTalker/SadTalker)  to generate the 3DMM coefficients. 
