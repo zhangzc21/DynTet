@@ -1,7 +1,7 @@
 # Learning Dynamic Tetrahedra for High-Quality Talking Head Synthesis 
 This repository contains a PyTorch re-implementation of the paper: Learning Dynamic Tetrahedra for High-Quality Talking Head Synthesis (CVPR 2024).
 ### | [Arxiv](https://arxiv.org/pdf/2402.17364.pdf) | [Video](https://youtu.be/Hahv5jy2w_E) | 
-
+<img src='assets/pipeline.png' width='1000'/>
 
 ## Installation
 Requires Python 3.6+, Cuda 11.3+ and PyTorch 1.10+. 
