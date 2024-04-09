@@ -143,12 +143,14 @@ To infer the video with customized 3DMM coefficients, and (optionally) merge the
 python infer.py --config configs/obama.json --drive_3dmm data/test_audio/obama_sing_sadtalker.npy --audio data/test_audio/sing.wav
 ```
 
-Note: Given an audio, you can try [SadTalker](https://github.com/OpenTalker/SadTalker)  to generate the 3DMM coefficients. 
-
+Note: Given an audio (e.g., `AUDIO.wav`), you can try [SadTalker](https://github.com/OpenTalker/SadTalker)  to generate the 3DMM coefficients mat file (e.g., `FILE.mat`) , then run 
+```
+python infer.py --config configs/obama.json --drive_3dmm FILE.mat --audio AUDIO.wav
+```
 
 ## TODO
 - [x] **Release Code.**
-- [ ] We consider that uploading a script that fine-tunes GFPGAN on DynTet to enhance visual effects of talking head. 
+- [ ] We consider that uploading a script that fine-tunes GFPGAN on DynTet to enhance the visual effects of talking head. 
 
 ## Citation
 
